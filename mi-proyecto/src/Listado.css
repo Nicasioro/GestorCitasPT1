@@ -1,0 +1,13 @@
+h2 {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+
+/* Espaciado opcional para separar las citas del título */
+.one-half.column {
+  margin-top: 2rem;
+}
