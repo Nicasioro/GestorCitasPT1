@@ -6,7 +6,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <>
+        <body>
+           <div className="App">
       <h1>ADMINISTRADOR DE PACIENTES</h1>
       <div className="container">
         <div className="row">
@@ -19,7 +21,10 @@ function App() {
         </div>
       </div>
     </div>
-  );
+        </body> 
+ 
+    </>
+ );
 }
 
 export default App;

@@ -3,9 +3,9 @@ import './Listado.css';
 
 const Listado = () => {
   return (
-    <div className="one-half column">
+    <div>
       <h2>Administra tus citas</h2>
-      {/* Aquí listamos las citas manualmente como pide el TP inicial */}
+   
       <Cita 
         mascota="Nina" dueño="Martin" fecha="2021-08-05" 
         hora="08:20" sintomas="Le duele la pierna" 

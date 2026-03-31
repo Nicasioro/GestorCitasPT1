@@ -2,7 +2,7 @@ import './Formulario.css';
 
 const Formulario = () => {
   return (
-    <div className="one-half column">
+    <div >
       <h2>Crear mi Cita</h2>
       <form>
         <label>Nombre Mascota</label>
