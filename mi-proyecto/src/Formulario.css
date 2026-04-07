@@ -17,13 +17,18 @@
         color: white;
         margin-top: 2rem;
       }
+.alerta-error {
+  background-color: #c10059; 
+  color: white; 
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  border-radius: 5px;
+}
+      
 
-      .alerta-error {
-        background-color: white;
-        color: red;
-        padding: 1rem;
-        font-size: 2rem;
-        text-transform: uppercase;
-        text-align: center;
-        font-family: 'Staatliches', cursive;
-      }
+.formOnErrorMessage{
+  color:white
+}

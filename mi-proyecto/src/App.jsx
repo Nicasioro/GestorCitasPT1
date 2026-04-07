@@ -1,30 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Formulario from "./Formulario";
 import Listado from "./Listado";
 
 import "./App.css";
 
 function App() {
+
+  const [citas, setCitas] = useState([]);
+
   return (
-    <>
-        <body>
-           <div className="App">
+    <div className="App">
       <h1>ADMINISTRADOR DE PACIENTES</h1>
+
       <div className="container">
         <div className="row">
+
           <div className="one-half column">
-            <Formulario />
+            <Formulario setCitas={setCitas} />
           </div>
+
           <div className="one-half column">
-            <Listado />
+            <Listado citas={citas} setCitas={setCitas} />
           </div>
+
         </div>
       </div>
     </div>
-        </body> 
- 
-    </>
- );
+  );
 }
 
 export default App;
